@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Глеб · Веб‑разработчик</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background">
+        <div class="bg-orb bg-orb--one"></div>
+        <div class="bg-orb bg-orb--two"></div>
+        <div class="bg-noise"></div>
+    </div>
+
+    <div class="app">
+        <header class="header">
+            <nav class="nav">
+                <a href="#top" class="nav-logo">
+                    <span class="nav-logo-mark">G</span>
+                    <span class="nav-logo-text">
+                        <span class="nav-logo-name">Глеб</span>
+                        <span class="nav-logo-role">Веб‑разработчик</span>
+                    </span>
+                </a>
+
+                <button class="nav-burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+
+                <a href="https://t.me/lowkey4ik" target="_blank" rel="noopener noreferrer" class="nav-cta">
+                    <span class="nav-cta-dot"></span>
+                    Telegram
+                </a>
+            </nav>
+        </header>
+
+        <main id="top" class="main">
+            <section class="hero section section--wide">
+                <div class="hero-text">
+                    <p class="hero-kicker">Начинающий веб‑разработчик</p>
+                    <h1 class="hero-title">
+                        Привет, я <span>Глеб</span>.<br />
+                        Собираю живые современные сайты.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Только начинаю путь в веб‑разработке, но уже уверенно чувствую себя в
+                        HTML и CSS. Люблю тёмные сине‑чёрные интерфейсы, плавные анимации и аккуратную вёрстку.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://t.me/lowkey4ik" target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+                            Связаться в Telegram
+                        </a>
+                        <a href="#projects" class="btn btn--ghost">
+                            Посмотреть проекты (скоро)
+                        </a>
+                    </div>
+                    <div class="hero-meta">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Landing pages</span>
+                        <span>Responsive design</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section section--split">
+                <div class="section-header">
+                    <span class="section-tag">Обо мне</span>
+                    <h2 class="section-title">Кто я и чем занимаюсь</h2>
+                </div>
+                <div class="section-content section-content--columns">
+                    <p>
+                        Я Глеб, начинающий веб‑разработчик. Сейчас фокусируюсь на вёрстке:
+                        учусь создавать аккуратные, понятные и адаптивные страницы, которые
+                        приятно выглядят как на компьютере, так и на телефоне.
+                    </p>
+                    <p>
+                        Этот сайт‑портфолио — одна из первых работ. По мере роста навыков сюда
+                        будут добавляться новые проекты: лендинги, мини‑сервисы и экспериментальные
+                        интерфейсы.
+                    </p>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <div class="section-header">
+                    <span class="section-tag">Навыки</span>
+                    <h2 class="section-title">С чем уже работаю</h2>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Структура страниц, семантическая вёрстка, работа с текстом и блоками.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Flexbox, базовый Grid, отступы, типографика, адаптивность под разные экраны.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Адаптивный дизайн</h3>
+                        <p>Сайты, которые удобно смотреть как на компьютере, так и на смартфоне.</p>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Темные интерфейсы</h3>
+                        <p>Сине‑чёрные градиенты, мягкие тени и подсветка для «живого» ощущения сайта.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <span class="section-tag">Проекты</span>
+                    <h2 class="section-title">Скоро здесь будут работы</h2>
+                </div>
+                <div class="projects-placeholder">
+                    <p>
+                        Пока что у меня нет завершённых публичных проектов — я в самом начале пути.
+                        Сейчас фокус на практике: повторяю макеты, тренирую сетки и анимации.
+                    </p>
+                    <ul>
+                        <li>Учебные лендинги и простые портфолио.</li>
+                        <li>Эксперименты с плавными hover‑эффектами и градиентами.</li>
+                        <li>Первые реальные проекты и заказы — совсем скоро.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact" class="section section--contact">
+                <div class="section-header">
+                    <span class="section-tag section-tag--accent">Контакты</span>
+                    <h2 class="section-title">Давай познакомимся</h2>
+                    <p class="section-subtitle">
+                        Лучше всего писать мне в Telegram. Открыт к учебным задачам, pet‑проектам и обратной связи.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="https://t.me/lowkey4ik" target="_blank" rel="noopener noreferrer" class="contact-card contact-card--tg">
+                        <div class="contact-icon contact-icon--tg">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M9.036 15.804 8.87 20.09c.33 0 .473-.142.645-.312l3.09-2.964 4.806 3.52c.882.486 1.5.23 1.734-.81l3.144-14.77.001-.001c.279-1.3-.469-1.807-1.33-1.49L2.18 9.42C.92 9.91.938 10.61 1.96 10.92l4.86 1.516 11.3-7.12c.532-.322 1.018-.144.619.178" />
+                            </svg>
+                        </div>
+                        <div class="contact-body">
+                            <span class="contact-label">Telegram</span>
+                            <span class="contact-main">@lowkey4ik</span>
+                            <span class="contact-note">Самый быстрый способ связаться</span>
+                        </div>
+                    </a>
+
+                    <div class="contact-card contact-card--secondary">
+                        <div class="contact-icon contact-icon--pulse">
+                            <span class="dot dot--green"></span>
+                        </div>
+                        <div class="contact-body">
+                            <span class="contact-label">Статус</span>
+                            <span class="contact-main">Открыт для новых задач</span>
+                            <span class="contact-note">Учебные проекты, небольшие лендинги, помощь по вёрстке</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <span class="footer-text">© 2026 · Глеб · Веб‑разработчик</span>
+            <span class="footer-text footer-text--muted">
+                Этот сайт растёт вместе с моими навыками.
+            </span>
+        </footer>
+    </div>
+</body>
+</html>
